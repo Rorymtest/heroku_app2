@@ -10,7 +10,7 @@ set :bind, '0.0.0.0'
 set :port, ENV['PORT']
 
 puts "test!"
-
+puts "boo"
 puts Dir["/dev/shm/*"].to_s
 puts 'Howre you doing now?'
 get '/' do
